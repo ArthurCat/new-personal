@@ -1,0 +1,145 @@
+/* .contact-me {
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+} */
+
+
+/* .contact-me h3 {
+    color: #A1B3A4;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 80px 0 20px;
+} */
+
+.contact-me p {
+    padding: 5px 0 60px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+input#name {
+    outline: none;
+    height: 50px;
+    padding: 10px;
+    border-radius: 0px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+input#email {
+    outline: none;
+    margin: 4% auto;
+    padding: 10px;
+    height: 50px;
+    border-radius: 0px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+textarea.form-control {
+    height: 140px;
+    outline: none;
+    border-radius: 0px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-me button.btn.btn-default.btn-lg {
+    background-color: #C49BA8;
+    border-color: #C49BA8;
+    color: #fff;
+    outline: none;
+    border-radius: 0px;
+    margin: 3% auto 0;
+    padding: 15px 35px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+}
+
+.contact-me button.btn.btn-default.btn-lg:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-info h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.contact-info p {
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+}
+
+img.social-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-info p.social {
+    padding: 0;
+    /* display: inline-block; */
+    color: #000;
+    /* line-height: 50px; */
+    vertical-align: middle;
+    margin: 30px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.douban {
+    color: #072;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-info .social a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.footer-info .social a:hover {
+    text-decoration: none !important;
+    color: #A1B3A4;
+}
+
+.contact-info h5 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 2em 0 0 .3em;
+}
+
+.footer-info i {
+    color: #FFBB85;
+    font-size: 30px;
+    margin: 25px 20px 10px 25px;
+    display: inline-block;
+}

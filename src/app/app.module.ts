@@ -4,13 +4,14 @@ import { FormsModule }   from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { BannerComponent } from './banner.component';
-import { AboutComponent } from './about.component';
-import { SkillsComponent } from './skills.component';
-import { TimelineComponent } from './timeline.component';
-import { PortfolioComponent } from './portfolio.component';
-import { ContactComponent } from './contact.component';
-import { FooterComponent } from './footer.component';
+import { BannerComponent } from './banner/banner.component';
+import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 
 
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer.component';
     TimelineComponent,
     PortfolioComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
