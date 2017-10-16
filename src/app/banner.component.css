@@ -1,0 +1,276 @@
+/*-- banner --*/
+
+.banner {
+    background: url(../assets/images/banner.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 825px;
+}
+
+
+/*-- slider --*/
+
+.banner {
+    height: 725px;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides {
+    margin: 0 auto;
+}
+
+.banner-info {
+    text-align: center;
+    width: 100%;
+    margin: 280px 0 0 390px;
+}
+
+.banner-info h3 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    padding: 60px 0 20px 0;
+}
+
+.banner-info p {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    margin: 0;
+}
+
+.social-icons {
+    margin: 2% auto 0;
+}
+
+.social-icons a span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons span.facebook {
+    background: url(../assets/images/social-icons.png) no-repeat 0px 0px;
+}
+
+.social-icons span.github {
+    background: url(../assets/images/social-icons.png) no-repeat -40px 0px;
+}
+
+.social-icons span.linkedin {
+    background: url(../assets/images/social-icons.png) no-repeat -80px 0px;
+}
+
+span.line1 {
+    width: 484px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+span.line2 {
+    width: 484px;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+/*-- /banner --*/
+
+@media (max-width: 1080px) {
+    .banner-info h3 {
+        font-size: 40px;
+    }
+    .banner-info p {
+        font-size: 25px;
+    }
+    span.line1,
+    span.line2 {
+        width: 400px;
+    }
+    .banner-info {
+        margin: 235px 0 0 262px;
+    }
+    .banner-info p {
+        font-size: 25px;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner {
+        min-height: 675px;
+    }
+    .banner .rslides {
+        height: 675px;
+    }
+    .banner-info {
+        margin: 180px 0 0 262px;
+    }
+}
+
+@media (max-width: 800px) {
+    .banner {
+        min-height: 600px;
+    }
+    .banner .rslides {
+        height: 600px;
+    }
+    .banner-info {
+        margin: 180px 0 0 205px;
+    }
+    span.line1,
+    span.line2 {
+        width: 327px;
+    }
+    .banner-info p {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-info {
+        margin: 180px 0 0 200px;
+    }
+}
+
+@media (max-width: 736px) {
+    .banner {
+        min-height: 360px;
+    }
+    .banner .rslides {
+        height: 360px;
+    }
+    .banner-info {
+        margin: 46px 0 0 192px;
+    }
+    span.line1,
+    span.line2 {
+        width: 300px;
+    }
+    .banner-info p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 667px) {
+    .banner-info {
+        margin: 30px 0 0 177px;
+    }
+    .banner-info h3 {
+        font-size: 35px;
+    }
+    .banner-info p {
+        font-size: 19px;
+    }
+    span.line1,
+    span.line2 {
+        width: 272px;
+    }
+}
+
+@media (max-width: 640px) {
+    .banner-info {
+        margin: 45px 0 0 165px;
+    }
+    .banner-info h3 {
+        padding: 60px 0 10px;
+    }
+    .banner-info p {
+        font-size: 17px;
+    }
+    span.line1,
+    span.line2 {
+        width: 242px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-info {
+        margin: 60px 0 0 155px;
+    }
+}
+
+@media (max-width: 568px) {
+    .banner {
+        min-height: 265px;
+    }
+    .banner .rslides {
+        height: 265px;
+    }
+    .banner-info {
+        margin: 20px 0 0 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-info h3 {
+        font-size: 25px;
+    }
+    .banner-info {
+        margin: 20px 0 0 97px;
+    }
+    .banner {
+        background-position: left;
+    }
+}
+
+@media (max-width: 414px) {
+    .banner-info {
+        margin: 20px 0 0 65px;
+    }
+}
+
+@media (max-width: 384px) {
+    .banner-info {
+        margin: 20px 0 0 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-info {
+        margin: 20px 0 0 0px;
+    }
+}
